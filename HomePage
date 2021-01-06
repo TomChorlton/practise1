@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> img { max-width: 100%; } </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="/Users/tomchorlton/Documents/Codecademy/mock_site/resources/index.css">
+    <title>SiteOne</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a id="logo"><img src="file:///Users/tomchorlton/Documents/Codecademy/mock_site/resources/images/BlissLogo.png"></a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+
+        
+        <section class="header">
+            <a href="https://www.instagram.com/p/CJZFjMYstwB/" target="_blank">
+            <div id="gradient">
+                    <div class="header-text">
+                    <h4>December 2020</h4>
+                    <h1><b>CLASSIC HILL CLIMB</b></h1>
+                    <p id="p-header">Form & function are paramount</p>
+                    <button href="#">Read More</button>
+                    <a id="info" href="#">Info</a>
+                </div>
+            </div>
+        </a>
+        </section>
+    
+
+        <section class="features-top">
+            <a href="https://www.instagram.com/p/B2enSr4HR5e/" target="_blank">
+            <div class="feature1">
+                <div class="gradient1">
+                    <div class="mark2">
+                        <h2>JZX the 2nd</h2>
+                        <p id="p-feature">The greatest?</p>
+                        <button id="button-feature" href="#">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+            <a href="https://www.instagram.com/p/CJHHFlkHNk_/" target="_blank">
+            <div class="feature2">
+                <div class="gradient2">
+                    <div class="is200">
+                        <h2>Lexus be fast</h2>
+                        <p id="p-feature">The baby JZX who thinks he's quick</p>
+                        <button id="button-feature" href="#">Read More</button>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </section>
+
+        <section class="features-bottom">
+            <a href="https://www.instagram.com/p/CG5wq3hnKue/" target="_blank">
+            <div class="feature3">
+                <div class="gradient3">
+                    <div class="ae86">
+                        <h2 >AE8•666</h2>
+                        <p id="p-feature">Small wheels no problems</p>
+                        <button id="button-feature" href="#">Read More</button>
+                    </div>
+                </div>
+            </div>
+            </a>
+
+            <div class="feature4">
+                <a href="https://www.instagram.com/p/CIluva8n0sF/" target="_blank">
+                <div class="gradient4">
+                    <div class="miata">
+                        <h2>Just Mi and you</h2>
+                        <p id="p-feature">Soft-top dreams</p>
+                        <button id="button-feature" href="#">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </a>
+        </section>
+
+        <section class="quote">
+            <div id=quote-logo-container>
+                <div id="quote-logo">
+                    <h1>"</h1>
+                </div>
+            </div>
+            <div class="quote-text">
+                <h1>10/10 would recommend</h1>
+                <h1>★★★★★</h1>
+                <p id="p-quote">Tom, BRS</p>
+            </div>
+        </section>
+
+        <section class="store-features">
+            <div id="features-center">
+                <a href="https://www.blissblissbliss.xyz/product/bliss-drop-shadow-air-freshener" target="_blank">
+                    <div id="air-fresh">
+                        <img class="store-image" src="file:///Users/tomchorlton/Documents/Codecademy/mock_site/resources/images/DSCF2414 copy.jpg">
+                        <h3 class="feature-title">BLISS DROP SHADOW <br>AIR FRESHNENER</h3>
+                        <p class="feature-price">£4</p>
+                    </div>
+                </a>
+
+            <a href="https://www.blissblissbliss.xyz/product/bliss-box-logo" target="_blank">
+                <div id="box-logo-sticker">
+                    <img class="store-image" src="file:///Users/tomchorlton/Documents/Codecademy/mock_site/resources/images/DSCF2304 copy.jpg">
+                    <h3 class="feature-title">BLISS BOX LOGO <br>STICKER</h3>
+                    <p class="feature-price">£4</p>
+                </div>
+            </a>
+
+            <a href="https://www.blissblissbliss.xyz/product/bliss-power" target="_blank">
+                <div id="power-sticker">
+                    <img class="store-image" src="file:///Users/tomchorlton/Documents/Codecademy/mock_site/resources/images/DSCF2249.jpg">
+                    <h3 class="feature-title">BLISS POWER <br>DIE-CUT</h3>
+                    <p class="feature-price">£3</p>
+                </div>
+            </a>
+
+            <a href="https://www.blissblissbliss.xyz/product/bliss-logo" target="_blank">
+                <div id="logo-sticker">
+                    <img class="store-image" src="file:///Users/tomchorlton/Documents/Codecademy/mock_site/resources/images/DSCF2233 copy.jpg">
+                    <h3 class="feature-title">BLISS LOGO <br>DIE-CUT</h3>
+                    <p class="feature-price">£3</p>
+                </div>
+            </a>
+
+            <a href="https://www.blissblissbliss.xyz/product/bliss-radiator-cap-sticker" target="_blank">    
+                <div id="rad-sticker">
+                    <img class="store-image" src="file:///Users/tomchorlton/Documents/Codecademy/mock_site/resources/images/DSCF2069 copy.jpg">
+                    <h3 class="feature-title">BLISS RADIATOR CAP <br>STICKER</h3>
+                    <p class="feature-price">£2</p>
+                </div>
+            </a>
+        </div>
+
+        <a href="https://www.blissblissbliss.xyz/category/new" target="_blank">
+            <button id="view-store">View Store</button>
+        </a>
+        </section>
+
+        <footer>
+            <p>© 2021 Tom Chorlton & BLISS</p>
+        </footer>
+</main>
+</body>
+</html>
